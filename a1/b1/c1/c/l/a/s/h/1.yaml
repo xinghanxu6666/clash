@@ -1,0 +1,928 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+
+proxies:
+  - name: '[基础]_账号：3957515385@qq.com【流量重置剩余：27 天】'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_账号：3957515385@qq.com【流量重置剩余：27 天】'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_到期：2027-06-15，剩余：196.86GB/200GB'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_到期：2027-06-15，剩余：196.86GB/200GB'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_✅防走丢：https://bboo.boo✅'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_✅防走丢：https://bboo.boo✅'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_✅没网请卸载重装✅'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_✅没网请卸载重装✅'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_越南河内-优秀'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_越南河内-优秀'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_越南河内_1号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_越南河内_1号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_越南河内_2号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_越南河内_2号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_越南河内_3号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_越南河内_3号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_越南河内_4号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_越南河内_4号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_新加坡JHOST'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_新加坡JHOST'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_新加坡HD'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_新加坡HD'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_荷兰阿姆斯特丹GURU'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_荷兰阿姆斯特丹GURU'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_荷兰阿姆斯特丹'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_荷兰阿姆斯特丹'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_荷兰阿姆斯特丹02'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_荷兰阿姆斯特丹02'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_荷兰HIT_1号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_荷兰HIT_1号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_荷兰HIT_2号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_荷兰HIT_2号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_意大利CV1'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_意大利CV1'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_巴西圣保罗-GPT/Netflix'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_巴西圣保罗-GPT/Netflix'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_美国洛杉矶优秀_1号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_美国洛杉矶优秀_1号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_美国洛杉矶优秀_2号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_美国洛杉矶优秀_2号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_美国洛杉矶优秀_3号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_美国洛杉矶优秀_3号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_美国洛杉矶优秀_4号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_美国洛杉矶优秀_4号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_美国洛杉矶优秀_5号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_美国洛杉矶优秀_5号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_美国洛杉矶优秀_6号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_美国洛杉矶优秀_6号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_美国洛杉矶RN_1号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_美国洛杉矶RN_1号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_美国洛杉矶RN_2号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_美国洛杉矶RN_2号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_美国洛杉矶RN_3号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_美国洛杉矶RN_3号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_美国洛杉矶RN_4号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_美国洛杉矶RN_4号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_美国弗吉尼亚州HDZ'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_美国弗吉尼亚州HDZ'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_美国塞浦路斯DVPS'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_美国塞浦路斯DVPS'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_美国纽约RN'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_美国纽约RN'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_美国圣何塞优秀_1号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_美国圣何塞优秀_1号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_美国圣何塞优秀_2号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_美国圣何塞优秀_2号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_美国新泽西MSG'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_美国新泽西MSG'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_俄罗斯莫斯科JHOST'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_俄罗斯莫斯科JHOST'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_德国纽约堡NCP'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_德国纽约堡NCP'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_德国法兰克福_1号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_德国法兰克福_1号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_德国法兰克福_2号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_德国法兰克福_2号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_中国香港省WAP_1号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_中国香港省WAP_1号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_中国香港省WAP_2号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_中国香港省WAP_2号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_中国香港省WAP_3号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_中国香港省WAP_3号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_中国香港省WAP_4号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_中国香港省WAP_4号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_美国洛杉矶WAP_1号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_美国洛杉矶WAP_1号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_美国洛杉矶WAP_2号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_美国洛杉矶WAP_2号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_美国洛杉矶WAP_3号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_美国洛杉矶WAP_3号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_中国香港W_1号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_中国香港W_1号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_中国香港W_2号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_中国香港W_2号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_中国香港HP_1号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_中国香港HP_1号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_中国香港HP_2号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_中国香港HP_2号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_中国香港HP_3号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_中国香港HP_3号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_中国香港HP_4号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_中国香港HP_4号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_中国香港HP_5号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_中国香港HP_5号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_PLUS-越南河内-限时使用-优秀'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_PLUS-越南河内-限时使用-优秀'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_PLUS-德国柏林SP'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_PLUS-德国柏林SP'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_PLUS-日本Y'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_PLUS-日本Y'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_PLUS-韩国Y'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_PLUS-韩国Y'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-德国法兰克福_1号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-德国法兰克福_1号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-美国俄勒冈州'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-美国俄勒冈州'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-美国纽约RN'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-美国纽约RN'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-美国弗吉尼亚州HDZ'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-美国弗吉尼亚州HDZ'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-美国洛杉矶RN_1号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-美国洛杉矶RN_1号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-美国洛杉矶RN_2号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-美国洛杉矶RN_2号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-美国洛杉矶RN_3号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-美国洛杉矶RN_3号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-美国洛杉矶RN_4号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-美国洛杉矶RN_4号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-塞浦路斯DVPS'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-塞浦路斯DVPS'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-美国圣何塞VIR_1号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-美国圣何塞VIR_1号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-美国圣何塞VIR_2号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-美国圣何塞VIR_2号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-美国圣何塞VIR_3号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-美国圣何塞VIR_3号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-英国伦敦KOT'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-英国伦敦KOT'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-美国新泽西MSG'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-美国新泽西MSG'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-新加坡HD'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-新加坡HD'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-新加坡JHOST'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-新加坡JHOST'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-巴西圣保罗VO'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-巴西圣保罗VO'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-越南河内_1号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-越南河内_1号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-越南河内_2号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-越南河内_2号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-越南河内_3号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-越南河内_3号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-越南河内_4号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-越南河内_4号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-意大利CV1'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-意大利CV1'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-俄罗斯莫斯科JHOST'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-俄罗斯莫斯科JHOST'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-荷兰林堡省EZNode'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-荷兰林堡省EZNode'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-荷兰阿姆斯特丹GURU'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-荷兰阿姆斯特丹GURU'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-荷兰HIT_1号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-荷兰HIT_1号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-荷兰HIT_2号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-荷兰HIT_2号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-德国法兰克福_2号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-德国法兰克福_2号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-德国法兰克福_3号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-德国法兰克福_3号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-中国香港省WAP_1号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-中国香港省WAP_1号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-中国香港省WAP_2号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-中国香港省WAP_2号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-中国香港省WAP_3号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-中国香港省WAP_3号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-中国香港省WAP_4号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-中国香港省WAP_4号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-美国洛杉矶WAP_1号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-美国洛杉矶WAP_1号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-美国洛杉矶WAP_2号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-美国洛杉矶WAP_2号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-美国洛杉矶WAP_3号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-美国洛杉矶WAP_3号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-中国香港W_1号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-中国香港W_1号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-中国香港W_2号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-中国香港W_2号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-PLUS-德国柏林SP_1号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-PLUS-德国柏林SP_1号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-PLUS-德国柏林SP_2号'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-PLUS-德国柏林SP_2号'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-PLUS-日本WAP'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-PLUS-日本WAP'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-PLUS-韩国'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-PLUS-韩国'
+    password: 'Gzx140715_'
+    udp: true
+  - name: '[基础]_Y-PLUS-越南河内'
+    type: socks5
+    server: 186.241.74.99
+    port: 2080
+    username: '[基础]_Y-PLUS-越南河内'
+    password: 'Gzx140715_'
+    udp: true
+
+proxy-groups:
+  - name: 节点选择
+    type: select
+    proxies:
+      - '自动选择'
+      - 'DIRECT'
+      - '[基础]_账号：3957515385@qq.com【流量重置剩余：27 天】'
+      - '[基础]_到期：2027-06-15，剩余：196.86GB/200GB'
+      - '[基础]_✅防走丢：https://bboo.boo✅'
+      - '[基础]_✅没网请卸载重装✅'
+      - '[基础]_越南河内-优秀'
+      - '[基础]_越南河内_1号'
+      - '[基础]_越南河内_2号'
+      - '[基础]_越南河内_3号'
+      - '[基础]_越南河内_4号'
+      - '[基础]_新加坡JHOST'
+      - '[基础]_新加坡HD'
+      - '[基础]_荷兰阿姆斯特丹GURU'
+      - '[基础]_荷兰阿姆斯特丹'
+      - '[基础]_荷兰阿姆斯特丹02'
+      - '[基础]_荷兰HIT_1号'
+      - '[基础]_荷兰HIT_2号'
+      - '[基础]_意大利CV1'
+      - '[基础]_巴西圣保罗-GPT/Netflix'
+      - '[基础]_美国洛杉矶优秀_1号'
+      - '[基础]_美国洛杉矶优秀_2号'
+      - '[基础]_美国洛杉矶优秀_3号'
+      - '[基础]_美国洛杉矶优秀_4号'
+      - '[基础]_美国洛杉矶优秀_5号'
+      - '[基础]_美国洛杉矶优秀_6号'
+      - '[基础]_美国洛杉矶RN_1号'
+      - '[基础]_美国洛杉矶RN_2号'
+      - '[基础]_美国洛杉矶RN_3号'
+      - '[基础]_美国洛杉矶RN_4号'
+      - '[基础]_美国弗吉尼亚州HDZ'
+      - '[基础]_美国塞浦路斯DVPS'
+      - '[基础]_美国纽约RN'
+      - '[基础]_美国圣何塞优秀_1号'
+      - '[基础]_美国圣何塞优秀_2号'
+      - '[基础]_美国新泽西MSG'
+      - '[基础]_俄罗斯莫斯科JHOST'
+      - '[基础]_德国纽约堡NCP'
+      - '[基础]_德国法兰克福_1号'
+      - '[基础]_德国法兰克福_2号'
+      - '[基础]_中国香港省WAP_1号'
+      - '[基础]_中国香港省WAP_2号'
+      - '[基础]_中国香港省WAP_3号'
+      - '[基础]_中国香港省WAP_4号'
+      - '[基础]_美国洛杉矶WAP_1号'
+      - '[基础]_美国洛杉矶WAP_2号'
+      - '[基础]_美国洛杉矶WAP_3号'
+      - '[基础]_中国香港W_1号'
+      - '[基础]_中国香港W_2号'
+      - '[基础]_中国香港HP_1号'
+      - '[基础]_中国香港HP_2号'
+      - '[基础]_中国香港HP_3号'
+      - '[基础]_中国香港HP_4号'
+      - '[基础]_中国香港HP_5号'
+      - '[基础]_PLUS-越南河内-限时使用-优秀'
+      - '[基础]_PLUS-德国柏林SP'
+      - '[基础]_PLUS-日本Y'
+      - '[基础]_PLUS-韩国Y'
+      - '[基础]_Y-德国法兰克福_1号'
+      - '[基础]_Y-美国俄勒冈州'
+      - '[基础]_Y-美国纽约RN'
+      - '[基础]_Y-美国弗吉尼亚州HDZ'
+      - '[基础]_Y-美国洛杉矶RN_1号'
+      - '[基础]_Y-美国洛杉矶RN_2号'
+      - '[基础]_Y-美国洛杉矶RN_3号'
+      - '[基础]_Y-美国洛杉矶RN_4号'
+      - '[基础]_Y-塞浦路斯DVPS'
+      - '[基础]_Y-美国圣何塞VIR_1号'
+      - '[基础]_Y-美国圣何塞VIR_2号'
+      - '[基础]_Y-美国圣何塞VIR_3号'
+      - '[基础]_Y-英国伦敦KOT'
+      - '[基础]_Y-美国新泽西MSG'
+      - '[基础]_Y-新加坡HD'
+      - '[基础]_Y-新加坡JHOST'
+      - '[基础]_Y-巴西圣保罗VO'
+      - '[基础]_Y-越南河内_1号'
+      - '[基础]_Y-越南河内_2号'
+      - '[基础]_Y-越南河内_3号'
+      - '[基础]_Y-越南河内_4号'
+      - '[基础]_Y-意大利CV1'
+      - '[基础]_Y-俄罗斯莫斯科JHOST'
+      - '[基础]_Y-荷兰林堡省EZNode'
+      - '[基础]_Y-荷兰阿姆斯特丹GURU'
+      - '[基础]_Y-荷兰HIT_1号'
+      - '[基础]_Y-荷兰HIT_2号'
+      - '[基础]_Y-德国法兰克福_2号'
+      - '[基础]_Y-德国法兰克福_3号'
+      - '[基础]_Y-中国香港省WAP_1号'
+      - '[基础]_Y-中国香港省WAP_2号'
+      - '[基础]_Y-中国香港省WAP_3号'
+      - '[基础]_Y-中国香港省WAP_4号'
+      - '[基础]_Y-美国洛杉矶WAP_1号'
+      - '[基础]_Y-美国洛杉矶WAP_2号'
+      - '[基础]_Y-美国洛杉矶WAP_3号'
+      - '[基础]_Y-中国香港W_1号'
+      - '[基础]_Y-中国香港W_2号'
+      - '[基础]_Y-PLUS-德国柏林SP_1号'
+      - '[基础]_Y-PLUS-德国柏林SP_2号'
+      - '[基础]_Y-PLUS-日本WAP'
+      - '[基础]_Y-PLUS-韩国'
+      - '[基础]_Y-PLUS-越南河内'
+
+  - name: 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - '[基础]_账号：3957515385@qq.com【流量重置剩余：27 天】'
+      - '[基础]_到期：2027-06-15，剩余：196.86GB/200GB'
+      - '[基础]_✅防走丢：https://bboo.boo✅'
+      - '[基础]_✅没网请卸载重装✅'
+      - '[基础]_越南河内-优秀'
+      - '[基础]_越南河内_1号'
+      - '[基础]_越南河内_2号'
+      - '[基础]_越南河内_3号'
+      - '[基础]_越南河内_4号'
+      - '[基础]_新加坡JHOST'
+      - '[基础]_新加坡HD'
+      - '[基础]_荷兰阿姆斯特丹GURU'
+      - '[基础]_荷兰阿姆斯特丹'
+      - '[基础]_荷兰阿姆斯特丹02'
+      - '[基础]_荷兰HIT_1号'
+      - '[基础]_荷兰HIT_2号'
+      - '[基础]_意大利CV1'
+      - '[基础]_巴西圣保罗-GPT/Netflix'
+      - '[基础]_美国洛杉矶优秀_1号'
+      - '[基础]_美国洛杉矶优秀_2号'
+      - '[基础]_美国洛杉矶优秀_3号'
+      - '[基础]_美国洛杉矶优秀_4号'
+      - '[基础]_美国洛杉矶优秀_5号'
+      - '[基础]_美国洛杉矶优秀_6号'
+      - '[基础]_美国洛杉矶RN_1号'
+      - '[基础]_美国洛杉矶RN_2号'
+      - '[基础]_美国洛杉矶RN_3号'
+      - '[基础]_美国洛杉矶RN_4号'
+      - '[基础]_美国弗吉尼亚州HDZ'
+      - '[基础]_美国塞浦路斯DVPS'
+      - '[基础]_美国纽约RN'
+      - '[基础]_美国圣何塞优秀_1号'
+      - '[基础]_美国圣何塞优秀_2号'
+      - '[基础]_美国新泽西MSG'
+      - '[基础]_俄罗斯莫斯科JHOST'
+      - '[基础]_德国纽约堡NCP'
+      - '[基础]_德国法兰克福_1号'
+      - '[基础]_德国法兰克福_2号'
+      - '[基础]_中国香港省WAP_1号'
+      - '[基础]_中国香港省WAP_2号'
+      - '[基础]_中国香港省WAP_3号'
+      - '[基础]_中国香港省WAP_4号'
+      - '[基础]_美国洛杉矶WAP_1号'
+      - '[基础]_美国洛杉矶WAP_2号'
+      - '[基础]_美国洛杉矶WAP_3号'
+      - '[基础]_中国香港W_1号'
+      - '[基础]_中国香港W_2号'
+      - '[基础]_中国香港HP_1号'
+      - '[基础]_中国香港HP_2号'
+      - '[基础]_中国香港HP_3号'
+      - '[基础]_中国香港HP_4号'
+      - '[基础]_中国香港HP_5号'
+      - '[基础]_PLUS-越南河内-限时使用-优秀'
+      - '[基础]_PLUS-德国柏林SP'
+      - '[基础]_PLUS-日本Y'
+      - '[基础]_PLUS-韩国Y'
+      - '[基础]_Y-德国法兰克福_1号'
+      - '[基础]_Y-美国俄勒冈州'
+      - '[基础]_Y-美国纽约RN'
+      - '[基础]_Y-美国弗吉尼亚州HDZ'
+      - '[基础]_Y-美国洛杉矶RN_1号'
+      - '[基础]_Y-美国洛杉矶RN_2号'
+      - '[基础]_Y-美国洛杉矶RN_3号'
+      - '[基础]_Y-美国洛杉矶RN_4号'
+      - '[基础]_Y-塞浦路斯DVPS'
+      - '[基础]_Y-美国圣何塞VIR_1号'
+      - '[基础]_Y-美国圣何塞VIR_2号'
+      - '[基础]_Y-美国圣何塞VIR_3号'
+      - '[基础]_Y-英国伦敦KOT'
+      - '[基础]_Y-美国新泽西MSG'
+      - '[基础]_Y-新加坡HD'
+      - '[基础]_Y-新加坡JHOST'
+      - '[基础]_Y-巴西圣保罗VO'
+      - '[基础]_Y-越南河内_1号'
+      - '[基础]_Y-越南河内_2号'
+      - '[基础]_Y-越南河内_3号'
+      - '[基础]_Y-越南河内_4号'
+      - '[基础]_Y-意大利CV1'
+      - '[基础]_Y-俄罗斯莫斯科JHOST'
+      - '[基础]_Y-荷兰林堡省EZNode'
+      - '[基础]_Y-荷兰阿姆斯特丹GURU'
+      - '[基础]_Y-荷兰HIT_1号'
+      - '[基础]_Y-荷兰HIT_2号'
+      - '[基础]_Y-德国法兰克福_2号'
+      - '[基础]_Y-德国法兰克福_3号'
+      - '[基础]_Y-中国香港省WAP_1号'
+      - '[基础]_Y-中国香港省WAP_2号'
+      - '[基础]_Y-中国香港省WAP_3号'
+      - '[基础]_Y-中国香港省WAP_4号'
+      - '[基础]_Y-美国洛杉矶WAP_1号'
+      - '[基础]_Y-美国洛杉矶WAP_2号'
+      - '[基础]_Y-美国洛杉矶WAP_3号'
+      - '[基础]_Y-中国香港W_1号'
+      - '[基础]_Y-中国香港W_2号'
+      - '[基础]_Y-PLUS-德国柏林SP_1号'
+      - '[基础]_Y-PLUS-德国柏林SP_2号'
+      - '[基础]_Y-PLUS-日本WAP'
+      - '[基础]_Y-PLUS-韩国'
+      - '[基础]_Y-PLUS-越南河内'
+
+  - name: 全球直连
+    type: select
+    proxies:
+      - 'DIRECT'
+      - '节点选择'
+
+rules:
+  - GEOIP,CN,DIRECT
+  - MATCH,节点选择
